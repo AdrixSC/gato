@@ -1,0 +1,49 @@
+body {
+    background-color: pink;
+    font-style: normal;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#tictactoe {
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 30px auto;
+}
+
+#tictactoe td {
+    border: 2px solid #000;
+    cursor: pointer;
+    font: 200 60px Arial, sans-serif;
+    height: 100px;
+    text-align: center;
+    width: 100px;
+}
+
+#tictactoe tr:first-child td {
+    border-top: none
+}
+
+#tictactoe tr:last-child td {
+    border-bottom: none
+}
+
+#tictactoe tr td:first-child {
+    border-left: none;
+}
+
+#tictactoe tr td:last-child {
+    border-right: none;
+}
+
+#tictactoe td.X {
+    color: #238EE1;
+}
+
+#tictactoe td.O {
+    color: #FF1010;
+}
